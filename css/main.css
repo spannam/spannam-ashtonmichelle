@@ -77,7 +77,7 @@ NAVIGATION
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: white;
-    background-color: #0083AE;
+    background-color: #f87175;
 }
 
 
@@ -91,7 +91,7 @@ NAVIGATION
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #0083AE;
+    color: #f87175;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -118,24 +118,34 @@ NAVIGATION
 .navbar li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-	font-size: 18px;
+    font-size: 18px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    float: left;
 }
 
-.navbar a {
+.navbar ul {
 	text-decoration: none;
-	list-style-type: none;
+	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: white;
 }
 
-
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 /*----------------------------------------------------------------------------- 
 HEADER
 -----------------------------------------------------------------------------*/
 
 .intro {
-	background: #0083AE;
+	background: #f87175;
     background-position: center;
 	background-repeat: no-repeat;
 	display: table;
