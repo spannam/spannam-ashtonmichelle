@@ -17,17 +17,8 @@ $(document).ready(function(){
   });
 });
 
-// Off-Canvas Navigation.
 
-			// Title Bar.
-				$(
-					'<div id="titleBar">' +
-						'<a href="#header" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
-					'</div>'
-				)
-					.appendTo($body);
-
+			
 //jQuery script to page-scroll & animate fa-icon
 
 $(document).ready(function() { 
