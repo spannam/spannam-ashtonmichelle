@@ -82,7 +82,7 @@ NAVIGATION
 
 
 .navbar-default .navbar-brand {
-    color: #0083AE;
+    color: #FFFF;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -123,6 +123,9 @@ NAVIGATION
     text-transform: uppercase;
 }
 
+.navbar a {
+	text-decoration: none;
+}
 
 
 
