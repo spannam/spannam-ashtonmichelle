@@ -26,7 +26,7 @@ body {
  *
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
- */
+ 
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -37,10 +37,11 @@ body {
     background: #b3d4fc;
     text-shadow: none;
 }
+*/
 
 /*
  * A better looking default horizontal rule
- */
+
 
 hr {
     display: block;
@@ -50,12 +51,12 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
+ */
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
- */
+ 
 
 audio,
 canvas,
@@ -68,7 +69,7 @@ video {
 
 /*
  * Remove default fieldset styles.
- */
+ 
 
 fieldset {
     border: 0;
@@ -78,7 +79,7 @@ fieldset {
 
 /*
  * Allow only vertical resizing of textareas.
- */
+
 
 textarea {
     resize: vertical;
