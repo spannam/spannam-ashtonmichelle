@@ -82,7 +82,7 @@ NAVIGATION
 
 
 .navbar-default .navbar-brand {
-    color: #FFFF;
+    color: rgb (248, 117, 113);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -125,6 +125,7 @@ NAVIGATION
 
 .navbar a {
 	text-decoration: none;
+	list-style-type: none;
 }
 
 
